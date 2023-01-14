@@ -38,6 +38,6 @@
   - _TeacherController_ :
     - Les remarques sur ce controller sont identiques à celui du StudentController.
 
-### Points à positifs :
+### Points positifs :
   - C'est un travail complet, certes il y a encore des choses à améliorer, mais tu peux être fier de ta réalisation, car en trois heures ce n'était pas évident de couvrir l'intégralité du sujet.
   

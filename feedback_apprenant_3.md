@@ -27,8 +27,7 @@
         - Les remarques sur ce controller sont identiques à celui du StudentController.
         - Concernant la méthode `studentAdd()`, une erreur majeure est présente, car tu initialises la variable `$newTeacher` sans l'utiliser ensuite, mais en utilisant une variable indéfini à la place...
 
-### Points à positifs :
+### Points positifs :
 - Le contrat n'est malheureusement pas rempli pour ce TP, néanmoins, tu peux toujours rattrap.
 - N'hésite pas à revoir la `POO` et toutes les notions concernant l'héritage et l'encapsulation.
 - N'hésites à revenir vers moi si tu as d'autre question
-- NO PAIN NO GAIN :) !
