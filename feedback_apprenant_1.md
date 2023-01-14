@@ -39,6 +39,5 @@
     - Les remarques sur ce controller sont identiques à celui du StudentController.
 
 ### Points à positifs :
-  - Malgré toutes ces remarques, il y a toujours des points positifs. Tu ne pars pas de zéro, mais il te faut réviser tes gammes en revoyant les bases.
-  - N'hésite pas à revoir la `POO` et toutes les notions concernant l'héritage et l'encapsulation.
-  - NO PAIN NO GAIN :) !
+  - C'est un travail complet, certes il y a encore des choses à améliorer, mais tu peux être fier de ta réalisation, car en trois heures ce n'était pas évident de couvrir l'intégralité du sujet.
+  
