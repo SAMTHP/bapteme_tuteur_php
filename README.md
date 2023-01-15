@@ -13,7 +13,7 @@
 
 ### II : Le conseil technique avancé à un.e apprenant.e
 
-### IIî : Retours à l’équipe pédagogique O’clock
+### III : Retours à l’équipe pédagogique O’clock
 
 ### IV : Retour sur un MCD d’un.e apprenant.e
 
