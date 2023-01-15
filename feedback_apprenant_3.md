@@ -28,8 +28,8 @@
         - Concernant la méthode `studentAdd()`, une erreur majeure est présente, car tu initialises la variable `$newTeacher` sans l'utiliser ensuite, mais en utilisant une variable indéfini à la place...
 
 ### Points positifs :
-- Le contrat n'est malheureusement pas rempli pour ce TP, néanmoins, tu peux toujours rattrap.
+- Le contrat n'est malheureusement pas rempli pour ce TP, néanmoins, tu peux toujours rattraper.
 - N'hésite pas à revoir la `POO` et toutes les notions concernant l'héritage et l'encapsulation.
-- N'hésites à revenir vers moi si tu as d'autre question
+- N'hésite pas à revenir vers moi si tu as d'autre question
 
 [RETOUR](/README.md)

@@ -8,7 +8,7 @@ Cet apprenant a rendu un travail de qualité. Il y a certes quelques erreurs et 
 ### Apprenant 2
 > 🔴 Non Rendu ou Très Insuffisant
 
-Cet apprenant est passé à côté de TP et n'a malheureusement pas les acquis nécessaires pour valider le parcours. Néanmoins, il pourrait rattraper son retard avec quelques cours de rattrapage.
+Cet apprenant est passé à côté de ce TP et n'a malheureusement pas les acquis nécessaires pour valider le parcours. Néanmoins, il pourrait rattraper son retard avec quelques cours de rattrapage.
 
 ### Apprenant 3
 > 🟠 Insuffisant pour Valider
@@ -18,6 +18,6 @@ L'apprenant a montré des choses intéressantes, mais pas suffisantes pour couvr
 ### Apprenant 3
 > 🔴 Non Rendu ou Très Insuffisant
 
-Le travail rendu est sommaire, et il est donc difficile de commenter le rendu de son travail. Je recommande également de mettre en place également des cours de rattrapage.
+Le travail rendu est sommaire, et il est donc difficile de commenter le rendu de son travail. Je recommande également de mettre en place des cours de rattrapage.
 
 [RETOUR](/README.md)

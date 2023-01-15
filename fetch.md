@@ -1,6 +1,6 @@
 # Définition de la notion de fetch
 
-> C'est une bonne chose que tu veuilles en savoir plus sur la notion de `fetch`, et bien accroches toi, car je vais dans cet exemple de te montrer comment l'implémenter, en faisant une petite évolution directement dans ton code. 
+> C'est une bonne chose que tu veuilles en savoir plus sur la notion de `fetch`, et bien accroches toi, car je vais dans cet exemple te montrer comment l'implémenter, en faisant une petite évolution directement dans ton code. 
 
 ## Qu'est que c'est `fetch` ?
 
@@ -23,13 +23,13 @@ Plusieurs étapes à réaliser seront nécessaires pour réaliser cette évoluti
 
 1. Création d'un endpoint (c'est-à-dire d'une url) et donc une méthode directement dans le controller qui aura pour but d'intercepter la requête est de traiter la demande
 2. Création de la logique en javascript permettant de supprimer un étudiant, et qui sera exécutée dans la vue qui affiche la liste des utilisateurs
-   1. Il faudra tout d'abord créer une fonction, qui interceptera le click sur le bouton de suppression, et qui enverra ensuite l'id de l'étudiant à supprimer à notre endpoint nouvelle créé
+   1. Il faudra tout d'abord créer une fonction, qui interceptera le click sur le bouton de suppression, et qui enverra ensuite l'id de l'étudiant à supprimer à notre endpoint nouvellement créé
    2. On traitera ensuite le retour la promesse
       1. Si c'est un succès, il faudra supprimer la ligne du tableau correspondant à l'utilisateur supprimé, et on affichera un message de succès
       2. Si c'est une erreur, on affichera un message d'erreur dans un console log
 
-I. Création du endpoint :
-1. Création d'une nouvelle route pour ne pas écraser l'ancienne
+I. **Création du endpoint :**
+1. *Création d'une nouvelle route pour ne pas écraser l'ancienne*
     ```php
     $router->map(
         'GET',
@@ -41,7 +41,7 @@ I. Création du endpoint :
         'student_delete_from_fetch'
     );
     ```
-2. Création de la méthode `studentDeleteFormFetch()`
+2. *Création de la méthode `studentDeleteFormFetch()`*
     ```php
     /**
      * Allow to delete a student
@@ -66,8 +66,8 @@ I. Création du endpoint :
     }
     ```
 
-I. Création de la logique de suppression en js :
-1. Adaptation de la vue `student_list.tpl.php` du code html :
+II. **Création de la logique de suppression en js :**
+1. *Adaptation de la vue `student_list.tpl.php` du code html :*
    ```php
       <tbody>
         <?php foreach($viewData["students"] as $student): ?>
@@ -98,9 +98,9 @@ I. Création de la logique de suppression en js :
         <?php endforeach; ?>
       </tbody>
    ```
-   Ici on modifie la row, en lui affectant un id dynamique ` <tr id="student-row-<?= $student->getId() ?>">`, afin de pouvoir supprimer la ligne du tableau <br>.
+   Ici on modifie la row, en lui affectant un id dynamique ` <tr id="student-row-<?= $student->getId() ?>">`, afin de pouvoir supprimer la ligne du tableau.<br>
    Ensuite on ajoute l'attribut `onclick` en renseignant la méthode javascript liée à la suppression d'un étudiant.
-2. Création de la méthode javascript `deleteStudent()` qui prend en paramètre l'id de l'étudiant à supprimer :
+2. *Création de la méthode javascript `deleteStudent()` qui prend en paramètre l'id de l'étudiant à supprimer :*
    ```js
    const deleteStudent = (studentId) => {
            fetch(`http://localhost:5551/student/${studentId}/delete-form-fetch`)

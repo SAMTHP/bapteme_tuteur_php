@@ -29,7 +29,7 @@
 | J'ai su percevoir le niveau actuel des apprenant.e.s en fonction du parcours envoyé | X | ... |
 | J'ai su adapter la complexité de mes retours/corrections en fonction des apprenant.e.s  | X | ... |
 | J'ai su proposer des pistes d'améliorations aux apprenant.e.s en fonction du niveau perçu (autres exemples, reformulations et explications sans donner la solution finale si possible/nécessaire, autres façons de faire, liens vers la documentation, etc.) | X | ... |
-| J'ai su proposer une explication cohérente avec un exemple concret sur la notion de fetch | ... | ... |
+| J'ai su proposer une explication cohérente avec un exemple concret sur la notion de fetch | X | ... |
 | J'ai su appréhender le MCD d'un.e apprenant.e et proposer un retour complet | X | ... |
 
 > Concernant l'autoévaluation, j'aurai aimé avoir au moins trois choix possibles :)
