@@ -2,7 +2,7 @@
 
 > C'est une bonne chose que tu veuilles en savoir plus sur la notion de `fetch`, et bien accroches toi, car je vais dans cet exemple te montrer comment l'implémenter, en faisant une petite évolution directement dans ton code. 
 
-## Qu'est que c'est `fetch` ?
+## C'est quoi `fetch` ?
 
 `fetch` est une fonction JavasScript native qui permet de faire des requêtes Ajax.
 Les requêtes Ajax sont des requêtes HTTP qui sont envoyées directement depuis le navigateur vers le serveur.
