@@ -12,7 +12,7 @@
 [FEEDBACK_APPRENANT_4](/feedback_apprenant_4.md)
 
 ### II : Le conseil technique avancé à un.e apprenant.e
-[EXPLICATION DU FETCH](/feedback_apprenant_4.md)
+[EXPLICATION DU FETCH](/fetch.md)
 
 ### III : Retours à l’équipe pédagogique O’clock
 
