@@ -21,7 +21,7 @@ tu as réalisé et voir si elles concordent.
 4. *Une commande contient un ou plusieurs produits.*<br>
    *Un produit peut être dans zéro ou plusieurs commandes.*
 
-Sur ton MCD, tu as donc fait une erreur sur la relation entre l'entité `User` et l'entité Product`.
+Sur ton MCD, tu as donc fait une erreur sur la relation entre l'entité `User` et l'entité `Product`.
 En effet, lorsqu'on lit le schéma, ça nous dit :
 - *Un utilisateur peut liker qu'un seul produit*
 - *Un produit peut être liké par un seul utilisateur*
