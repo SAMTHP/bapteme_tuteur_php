@@ -11,8 +11,8 @@ tu as réalisé et voir si elles concordent.
 
 1. *Un utilisateur peut créer sur son compte une ou plusieurs adresses de livraison.*<br>
    *Une adresse de livraison est créé par un seul utilisateur.*
-2. *<span style="color:red">Un utilisateur peut liker zéro ou plusieurs produits.*<br>
-   *Un produit peut être liké par zéro ou plusieurs utilisateurs.</span>*
+2. <span style="color:red">Un utilisateur peut liker zéro ou plusieurs produits.*<br>
+   *Un produit peut être liké par zéro ou plusieurs utilisateurs.</span>
 3. *Un utilisateur peut passer zéro ou plusieurs commandes.*<br>
    *Une commande est passée par un seul utilisateur.*
 4. *Une commande contient un ou plusieurs produits.*<br>
