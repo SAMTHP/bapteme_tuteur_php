@@ -21,7 +21,7 @@ Plusieurs étapes à réaliser seront nécessaires pour réaliser cette évoluti
 
 ### Steps :
 
-1. Création d'un endpoint (c'est-à-dire d'une url) et donc une méthode directement dans le controller qui aura pour but d'intercepter la requête est de traiter la demande
+1. Création d'un endpoint (c'est-à-dire d'une url) et donc une méthode directement dans le controller qui aura pour but d'intercepter la requête et de traiter la demande
 2. Création de la logique en javascript permettant de supprimer un étudiant, et qui sera exécutée dans la vue qui affiche la liste des utilisateurs
    1. Il faudra tout d'abord créer une fonction, qui interceptera le click sur le bouton de suppression, et qui enverra ensuite l'id de l'étudiant à supprimer à notre endpoint nouvellement créé
    2. On traitera ensuite le retour la promesse
